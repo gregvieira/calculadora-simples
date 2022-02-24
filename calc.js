@@ -17,6 +17,9 @@ function calcular(oper){
                 var res = valor1 / valor2;
             }
         }
+        if(oper == "exponenciar"){
+            var res = Math.pow(valor1, valor2);
+        }
     }
  document.calcform.res.value = res;
 };
